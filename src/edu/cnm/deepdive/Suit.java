@@ -11,10 +11,10 @@ package edu.cnm.deepdive;
 public enum Suit {
 
 
-  CLUBS("C"),
-  DIAMONDS("D"),
-  HEARTS("H"),
-  SPADES("S");
+  CLUBS("\u2663"),
+  DIAMONDS("\u2662"),
+  HEARTS("\u2661"),
+  SPADES("\u2660");
 
   private final String symbol;
 
