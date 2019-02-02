@@ -86,15 +86,15 @@ public class CardTrick {
     System.out.printf("Red pile: %s%n", redPile);
 
     System.out.printf("Black: %d. Red: %d.%n", blackCount, redCount);
-  }
-  public static void main(String[] args) { //structure of the code. the main method to run the code
+        }
+public static void main(String[] args) { //structure of the code. the main method to run the code
     CardTrick trick = new CardTrick(); // there's the instance!
     Deck deck = trick.prepareDeck();
     trick.splitDeck(deck);
     trick.swapCards();
     trick.countAndReport();
 
-  }
+    }
 
 
-}
+    }
